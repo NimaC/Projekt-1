@@ -1,3 +1,0 @@
-Umfrageportal wie Strawpoll.me
-
-Also eine Anwendung die Eingaben zählt, auswertet und ausgibt.

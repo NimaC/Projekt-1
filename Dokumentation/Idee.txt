@@ -1,0 +1,18 @@
+(Umfrageportal wie Strawpoll.me
+
+Also eine Anwendung die Eingaben zählt, auswertet und ausgibt.)
+
+
+
+Umsetzung des Brettspiels "Adventure Tours"
+http://www.brettspiele-report.de/adventure-tours/
+
+3-6 Spieler Lokal an einem Rechner
+
+
+"Jeder Spieler stellt für sich eine Expedition zusammen und versucht hierbei schneller zu sein und zahlungskräftigere Expeditionsteilnehmer anzuheuern als seine Mitspieler.
+Leider haben die Expeditionsteilnehmer einen gewissen Anspruch an die Ausrüstung und dieser steigt sogar noch mit ihrer Zahlungsfähigkeit. 
+Die Ausrüstung muss daher dringendst verbessert werden.
+Das Anheuern von Expeditionsteilnehmern und das Verbessern der Ausrüstung geschieht über sogenannte Abenteurerkarten. 
+Als Expeditionsteilnehmer gespielt geben sie dem Spieler auch eine Sonderaktion mit der er seinen Mitspielern auch mal Expeditionsteilnehmer oder Ausrüstungen abnehmen kann.
+Es ist daher gar nicht so einfach die Expedition zusammenzustellen und zusammenzuhalten."
