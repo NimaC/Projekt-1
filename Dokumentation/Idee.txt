@@ -2,34 +2,34 @@
 
 (Umfrageportal wie Strawpoll.me
 
-Also eine Anwendung die Eingaben z‰hlt, auswertet und ausgibt.)
+Also eine Anwendung die Eingaben z√§hlt, auswertet und ausgibt.)
 
 
 === Feedback Alpers, 2016-04-06 ===
 
-Zun‰chst ein formaler Hinweis: Sie sollten im Repository ein Verzeichnis mit dem Namen Dokumentation erstellen und darin die Datei mit der Projektidee speichern. Bitte ‰ndern Sie das entsprechend ab. Wenn Sie die Aufgabenstellung im Kapitel 5 nicht gelesen haben, dann holen Sie das jetzt nach.
+Zun√§chst ein formaler Hinweis: Sie sollten im Repository ein Verzeichnis mit dem Namen Dokumentation erstellen und darin die Datei mit der Projektidee speichern. Bitte √§ndern Sie das entsprechend ab. Wenn Sie die Aufgabenstellung im Kapitel 5 nicht gelesen haben, dann holen Sie das jetzt nach.
 
-Das ist leider keine gute Beschreibung einer Projektidee im Sinne eines Softwareprojekts. Ihre Aufgabe war es ja, zu beschreiben, was ein Programm tun soll, das Sie gerne h‰tten. Und Ihre Beschreibung besteht darin, dass Sie ein fertiges Projekt nennen, das Sie nachprogrammieren wollen.
+Das ist leider keine gute Beschreibung einer Projektidee im Sinne eines Softwareprojekts. Ihre Aufgabe war es ja, zu beschreiben, was ein Programm tun soll, das Sie gerne h√§tten. Und Ihre Beschreibung besteht darin, dass Sie ein fertiges Projekt nennen, das Sie nachprogrammieren wollen.
 
-Dazu kommt, dass Ihr Vorschlag leider sehr d¸nn ist: Ein Programm, das nicht mehr tut als Eingaben zu z‰hlen und die Zahlen auszugeben. Da fehlt die Interaktion mit NutzerInnen. Wenn Ihnen der Begriff unklar ist, dann denken Sie an ein Brettspiel, bei dem Sie viele Dinge tun m¸ssen, die ein Computer ¸bernehmen w¸rde. Das kˆnnen komplexe Berechnungen sein, zuf‰llig ausgew‰hlte Aktionskarten, das verschieben von Spielfiguren, usw. usf.
+Dazu kommt, dass Ihr Vorschlag leider sehr d√ºnn ist: Ein Programm, das nicht mehr tut als Eingaben zu z√§hlen und die Zahlen auszugeben. Da fehlt die Interaktion mit NutzerInnen. Wenn Ihnen der Begriff unklar ist, dann denken Sie an ein Brettspiel, bei dem Sie viele Dinge tun m√ºssen, die ein Computer √ºbernehmen w√ºrde. Das k√∂nnen komplexe Berechnungen sein, zuf√§llig ausgew√§hlte Aktionskarten, das verschieben von Spielfiguren, usw. usf.
 
 Versuchen Sie deshalb das Spiel Adventure Tours umzusetzen: http://www.brettspiele-report.de/adventure-tours/
 
-=== Zweiter Aufgabenblock (identisch f¸r alle Studierenden) ===
+=== Zweiter Aufgabenblock (identisch f√ºr alle Studierenden) ===
 
 Sie haben jetzt gezeigt, dass Sie einfache Arbeiten mit einem Git-Repository beherrschen.
-Als Teil der letzten Aufgabe sollten Sie beschreiben, was Ihre Anwendung tun soll, also was f¸r Funktionalit‰ten Ihre Anwendung bieten soll.
-Wenn Sie hier nichts angegeben haben, dann werde ich Ihnen einen Vorschlag hochladen, mit dem Sie weiterarbeiten kˆnnen.
-In der Veranstaltung haben Sie auﬂerdem gelernt, was Markup Languages sind.
+Als Teil der letzten Aufgabe sollten Sie beschreiben, was Ihre Anwendung tun soll, also was f√ºr Funktionalit√§ten Ihre Anwendung bieten soll.
+Wenn Sie hier nichts angegeben haben, dann werde ich Ihnen einen Vorschlag hochladen, mit dem Sie weiterarbeiten k√∂nnen.
+In der Veranstaltung haben Sie au√üerdem gelernt, was Markup Languages sind.
 
-Die n‰chste Aufgabe besteht aus den folgenden Teilen:
+Die n√§chste Aufgabe besteht aus den folgenden Teilen:
 
 1.) Lesen Sie mein Feedback durch und setzen Sie die beschriebenen Aufgaben um.
 
-F¸r die folgende Aufgabe sollten Sie mindestens eine halbe Stunde investieren. Zwei Stunden w‰re aber etwas zu viel des guten.
-Bearbeiten Sie die Aufgaben 2. und 3. bitte innerhalb von 48 Stunden, weil andere Studierende davon abh‰ngen, dass Sie sie beendet haben.
+F√ºr die folgende Aufgabe sollten Sie mindestens eine halbe Stunde investieren. Zwei Stunden w√§re aber etwas zu viel des guten.
+Bearbeiten Sie die Aufgaben 2. und 3. bitte innerhalb von 48 Stunden, weil andere Studierende davon abh√§ngen, dass Sie sie beendet haben.
 Bearbeiten Sie die Aufgaben auf jeden Fall in der vorgegebenen Reihenfolge.
-Und bearbeiten Sie eine Aufgabe nicht nachtr‰glich nochmal. (Wenn Sie also z.B. Aufgabe 3. bearbeiten, dann ‰ndern Sie bitte nichts an Aufgabe 1. nachtr‰glich ab. Daf¸r wird sp‰ter noch genug Zeit sein.)
+Und bearbeiten Sie eine Aufgabe nicht nachtr√§glich nochmal. (Wenn Sie also z.B. Aufgabe 3. bearbeiten, dann √§ndern Sie bitte nichts an Aufgabe 1. nachtr√§glich ab. Daf√ºr wird sp√§ter noch genug Zeit sein.)
 
 2.) Bennen Sie die strukturellen Elemente, aus denen Ihre Anwendung bestehen soll.
 Es ist dabei egal, ob es diese Elemente in HTML gibt.
@@ -39,77 +39,77 @@ Speichern Sie diese Aufstellung als HTML-Kommentar in einer Datei mit dem Namen
 
 strukt.html
 
-, die Sie in Ihrem Repository abspeichern. Wichtig: Die Datei soll nicht im Unterverzeichnis Dokumentation des Repositories gespeichert werden, weil sie die Basis f¸r das erste HTML-Dokument werden wird.
+, die Sie in Ihrem Repository abspeichern. Wichtig: Die Datei soll nicht im Unterverzeichnis Dokumentation des Repositories gespeichert werden, weil sie die Basis f√ºr das erste HTML-Dokument werden wird.
 
-Wenn Sie noch unsicher sind: Strukturelle Elemente kˆnnen alles mˆgliche sein:
+Wenn Sie noch unsicher sind: Strukturelle Elemente k√∂nnen alles m√∂gliche sein:
 - Tabellen
 - Listen
-- Schaltfl‰chen
+- Schaltfl√§chen
 - Textfelder
 - Bildbereiche
 - Hintergrundmusik
-- Abs‰tze
+- Abs√§tze
 - ...
 
 In anderen Worten: Ein strukturelles Element ist etwas, das ein abgegrenzter Teil der Anwendung ist.
 Notieren Sie kurz, welche Funktion jedes der von Ihnen genannten Elemente haben soll.
 
 Hier einige Beispiele:
-- Schaltfl‰che (Nutzer kˆnnen per Klick best‰tigen, dass eine Eingabe abgeschickt werden soll.)
-- Textfeld f¸r Namen (Nutzer kˆnnen Ihren Nachnamen eintragen.)
-- Log-In-Maske (Bereich, in dem Nutzer sich einloggen kˆnnen.)
+- Schaltfl√§che (Nutzer k√∂nnen per Klick best√§tigen, dass eine Eingabe abgeschickt werden soll.)
+- Textfeld f√ºr Namen (Nutzer k√∂nnen Ihren Nachnamen eintragen.)
+- Log-In-Maske (Bereich, in dem Nutzer sich einloggen k√∂nnen.)
 - - Teile der Log-In-Maske:
-- - Textfeld f¸r Username
-- - Textfeld, das die Eingabe nicht anzeigt, f¸rs Passwort
-- Tabelle, 7 x 5 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anw‰hlen, soll ein Men¸ erscheinen.)
-- - Men¸ f¸r jedes Feld der Tabelle mit Texteintr‰gen (Eintrag f¸r "Geb‰ude abreiﬂen", "Feld kaufen")
+- - Textfeld f√ºr Username
+- - Textfeld, das die Eingabe nicht anzeigt, f√ºrs Passwort
+- Tabelle, 7 x 5 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anw√§hlen, soll ein Men√º erscheinen.)
+- - Men√º f√ºr jedes Feld der Tabelle mit Texteintr√§gen (Eintrag f√ºr "Geb√§ude abrei√üen", "Feld kaufen")
 - Hintergrundbild (Hier sollen einzelne Bilder als Diashow eingeblendet werden.)
 - Werbebanner
-- Schaltfl‰che f¸r die Maskierung von NSFW (NSFW = Not safe for work)(NutzerInnen kˆnnen ¸ber diese Schaltfl‰che eine andere Anwendung in der Vordergrund einblenden lassen, damit der Chef nicht sieht, dass sie gerade spielen.)
+- Schaltfl√§che f√ºr die Maskierung von NSFW (NSFW = Not safe for work)(NutzerInnen k√∂nnen √ºber diese Schaltfl√§che eine andere Anwendung in der Vordergrund einblenden lassen, damit der Chef nicht sieht, dass sie gerade spielen.)
 
-3.) Schauen Sie jetzt in der Liste der Repositories (nicht in der Tabelle der Accounts) nach, welche zehn Repositories vor und nach Ihrem Repository aufgef¸hrt sind und geben Sie den Besitzern dieser Repositories Zugriffsrechte auf Ihr Repository.
+3.) Schauen Sie jetzt in der Liste der Repositories (nicht in der Tabelle der Accounts) nach, welche zehn Repositories vor und nach Ihrem Repository aufgef√ºhrt sind und geben Sie den Besitzern dieser Repositories Zugriffsrechte auf Ihr Repository.
 
 Bsp.: Sie haben das Repository BerndStromberg. Dann folgen die zehn Repositories der Nutzer BlackWolf63, Cantinaband, CaptainWeasle, ColePfeiffer, CurvLietzau,
-DangerDulf, dnbdel, Domsche, Eldinox und Eupuco und vor Ihnen gibt es die f¸nf Repositories der Nutzer 2238867, amelie-beh, Anger21, anita1997 und Asphalon. all diesen Accounts geben Sie jetzt Zugriffsrechte auf Ihr Repository, so wie Sie das schon f¸r mich getan haben. Wenn Sie, wie BerndStrommberg zu weit am Anfang der Liste stehen (hier gibt es ja nur f¸nf andere Accounts bis zum Anfang der Liste), dann geben Sie zus‰tzlich noch den Besitzern der letzten f¸nf Repositories Zugriffsrechte. Es sollten insgesamt 20 Accounts Zugriffsrecht haben.
+DangerDulf, dnbdel, Domsche, Eldinox und Eupuco und vor Ihnen gibt es die f√ºnf Repositories der Nutzer 2238867, amelie-beh, Anger21, anita1997 und Asphalon. all diesen Accounts geben Sie jetzt Zugriffsrechte auf Ihr Repository, so wie Sie das schon f√ºr mich getan haben. Wenn Sie, wie BerndStrommberg zu weit am Anfang der Liste stehen (hier gibt es ja nur f√ºnf andere Accounts bis zum Anfang der Liste), dann geben Sie zus√§tzlich noch den Besitzern der letzten f√ºnf Repositories Zugriffsrechte. Es sollten insgesamt 20 Accounts Zugriffsrecht haben.
 
-F¸r die n‰chsten zwei Aufgaben sollten Sie pro Repository zwischen zehn Minuten und einer Stunde aufwenden. Weniger ist zu wenig und mehr ist zu viel.
-Beachten Sie dabei bitte, dass Sie hier letzten Endes Kritik an der Arbeit eines/einer anderen ¸ben und das einige von Ihnen noch nie programmiert haben. Arbeiten Sie deshalb bitte daran, alles, was Sie erg‰nzen so neutral und hˆflich wie mˆglich zu formulieren, denn Unwissenheit und mangelndes Verst‰ndnis f¸rs Programmieren sind eben nicht das selbe wie Dummheit oder Faulheit.
+F√ºr die n√§chsten zwei Aufgaben sollten Sie pro Repository zwischen zehn Minuten und einer Stunde aufwenden. Weniger ist zu wenig und mehr ist zu viel.
+Beachten Sie dabei bitte, dass Sie hier letzten Endes Kritik an der Arbeit eines/einer anderen √ºben und das einige von Ihnen noch nie programmiert haben. Arbeiten Sie deshalb bitte daran, alles, was Sie erg√§nzen so neutral und h√∂flich wie m√∂glich zu formulieren, denn Unwissenheit und mangelndes Verst√§ndnis f√ºrs Programmieren sind eben nicht das selbe wie Dummheit oder Faulheit.
 
-Bitte erledigen Sie diese Aufgaben innerhalb der n‰chsten sieben Tage.
+Bitte erledigen Sie diese Aufgaben innerhalb der n√§chsten sieben Tage.
 
-4.) Als n‰chstes greifen Sie auf die nach Ihrem Repository nachfolgenden f¸nf Repositories zu und bearbeiten hier die folgende Aufgabe. (Hier h‰ngen Sie also davon ab, dass andere Kommilitonen Aufgabe 3. erledigt haben.) 
+4.) Als n√§chstes greifen Sie auf die nach Ihrem Repository nachfolgenden f√ºnf Repositories zu und bearbeiten hier die folgende Aufgabe. (Hier h√§ngen Sie also davon ab, dass andere Kommilitonen Aufgabe 3. erledigt haben.) 
 
-Lesen Sie sich die Projektidee durch und machen Sie sich ‰hnlich wie bei 2. einfache Stichpunkte ¸ber strukturelle Elemente, die Sie bei dieser Projektidee sinnvoll finden. (Hier erstmal nur Stichpunkte, Details arbeiten Sie unter 5. aus.)
+Lesen Sie sich die Projektidee durch und machen Sie sich √§hnlich wie bei 2. einfache Stichpunkte √ºber strukturelle Elemente, die Sie bei dieser Projektidee sinnvoll finden. (Hier erstmal nur Stichpunkte, Details arbeiten Sie unter 5. aus.)
 
-5.) ÷ffnen Sie jetzt die Datei strukt.html des Repositories, das Sie gerade bearbeiten. Erg‰nzen Sie Elemente, die Sie unter 4. notiert haben und die noch nicht eingetragen sind in der unter 2. beschriebenen Form.
+5.) √ñffnen Sie jetzt die Datei strukt.html des Repositories, das Sie gerade bearbeiten. Erg√§nzen Sie Elemente, die Sie unter 4. notiert haben und die noch nicht eingetragen sind in der unter 2. beschriebenen Form.
 
-Abschlieﬂender Hinweis zu 4. und 5.:
+Abschlie√üender Hinweis zu 4. und 5.:
 
-Auch wenn das nirgends explizit steht sollen Sie ƒnderungen in das Repository pushen, aus dem sie die Datei strukt.html gepullt haben.
-Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst sp‰ter w‰hrend der Projektbearbeitung) einen merge durchf¸hren m¸ssen. Wenn Sie sich noch nicht angesehen haben, wie das geht, dann tun Sie es jetzt.
+Auch wenn das nirgends explizit steht sollen Sie √Ñnderungen in das Repository pushen, aus dem sie die Datei strukt.html gepullt haben.
+Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst sp√§ter w√§hrend der Projektbearbeitung) einen merge durchf√ºhren m√ºssen. Wenn Sie sich noch nicht angesehen haben, wie das geht, dann tun Sie es jetzt.
 
-Viele Gr¸ﬂe,
+Viele Gr√º√üe,
 Markus Alpers 
 
 === Feedback Ende ===
 
-> Umsetzung des Brettspiels "Adventure Tours" http://www.brettspiele-report.de/adventure-tours/
+> Umsetzung des Brettspiels "Adventure Tours" http://www.brettspiele-report.de/adventure-tour/s
 >
 > 3-6 Spieler Lokal an einem Rechner
 
 === Feedback Alpers, 2016-04-27 ===
 
-Eine Webanwendung bietet doch gerade die groﬂartige Mˆglichkeit, dass Spieler online zusammenspielen kˆnnen. 
+Eine Webanwendung bietet doch gerade die gro√üartige M√∂glichkeit, dass Spieler online zusammenspielen k√∂nnen. 
 
-Auch die Beschr‰nkung der Spielerzahl ist unnˆtig. Hier ist es Ihre Aufgabe, sich sp‰ter zu ¸berlegen, wie Sie das Spiel mit weniger/mehr Spielern ermˆglichen kˆnnen.
+Auch die Beschr√§nkung der Spielerzahl ist unn√∂tig. Hier ist es Ihre Aufgabe, sich sp√§ter zu √ºberlegen, wie Sie das Spiel mit weniger/mehr Spielern erm√∂glichen k√∂nnen.
 
 === Feedback Ende ===
 
-> "Jeder Spieler stellt f¸r sich eine Expedition zusammen und versucht hierbei schneller zu sein und zahlungskr‰ftigere Expeditionsteilnehmer anzuheuern als seine Mitspieler.
-> Leider haben die Expeditionsteilnehmer einen gewissen Anspruch an die Ausr¸stung und dieser steigt sogar noch mit ihrer Zahlungsf‰higkeit. 
-> Die Ausr¸stung muss daher dringendst verbessert werden.
-> Das Anheuern von Expeditionsteilnehmern und das Verbessern der Ausr¸stung geschieht ¸ber sogenannte Abenteurerkarten. 
-> Als Expeditionsteilnehmer gespielt geben sie dem Spieler auch eine Sonderaktion mit der er seinen Mitspielern auch mal Expeditionsteilnehmer oder Ausr¸stungen abnehmen kann.
+> "Jeder Spieler stellt f√ºr sich eine Expedition zusammen und versucht hierbei schneller zu sein und zahlungskr√§ftigere Expeditionsteilnehmer anzuheuern als seine Mitspieler.
+> Leider haben die Expeditionsteilnehmer einen gewissen Anspruch an die Ausr√ºstung und dieser steigt sogar noch mit ihrer Zahlungsf√§higkeit. 
+> Die Ausr√ºstung muss daher dringendst verbessert werden.
+> Das Anheuern von Expeditionsteilnehmern und das Verbessern der Ausr√ºstung geschieht √ºber sogenannte Abenteurerkarten. 
+> Als Expeditionsteilnehmer gespielt geben sie dem Spieler auch eine Sonderaktion mit der er seinen Mitspielern auch mal Expeditionsteilnehmer oder Ausr√ºstungen abnehmen kann.
 > Es ist daher gar nicht so einfach die Expedition zusammenzustellen und zusammenzuhalten."
 
 === Feedback Alpers, 2016-04-27 ===
@@ -117,3 +117,20 @@ Auch die Beschr‰nkung der Spielerzahl ist unnˆtig. Hier ist es Ihre Aufgabe, sic
 Ihre Aufgabe bestand bei der Beschreibung der Projektidee, das Projekt so zu beschreiben, wie in Kap. 5 vorgegeben. Hier haben Sie nur die Beschreibung der Webpage kopiert. Bitte nochmal.
 
 === Feedback Ende ===
+
+Umsetzung des Brettspiels Adventure Tours als Webanwendung f√ºr 3-6 Mitspieler lokal an einem Rechner.
+
+Ziel des Spiels: Nach 3 Runden am meisten Gold besitzen.
+Expiditionsteilnehmer zahlen pro Runde Gold.
+ 
+=== Benutzeroberfl√§che === 
+- Expeditionstableau : hat 3 Attribute z.B. "Technik", "Proviant" und "Kleidung" + Spezialf√§higkeit
+- Abenteuerkarten : bessert Attribute auf + zeigt ben√∂tigte Attribute um als Expeditionsteilnehmer auszuspielen + Spezialf√§higkeit (Als Expeditionsteilnehmer gibt er Gold pro Runde)
+- √úbersichtskarte : √úbersicht der Spezialf√§higkeiten
+
+=== Interaktionen === 
+- Abenteuerkarte: Kann entweder Rechts oder √úber dem Expeditionstableau abgelegt werden. Rechts vom Expiditionstableau wertet es die Attribute der Expidition auf. √úber dem Tableau abgelegt wird es zum Expiditionsteilnehmer.
+- Spezialf√§higkeiten: Diverse Effekte
+ 
+=== Sonstiges === 
+- Zug Beenden
