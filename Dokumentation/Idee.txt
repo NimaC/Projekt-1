@@ -121,7 +121,7 @@ Ihre Aufgabe bestand bei der Beschreibung der Projektidee, das Projekt so zu bes
 Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler lokal an einem Rechner.
 
 Ziel des Spiels: Nach 3 Runden am meisten Gold besitzen.
-Expiditionsteilnehmer zahlen pro Runde Gold.
+Expeditionsteilnehmer zahlen pro Runde Gold.
  
 === Benutzeroberfläche === 
 - Expeditionstableau : hat 3 Attribute z.B. "Technik", "Proviant" und "Kleidung" + Spezialfähigkeit
@@ -131,6 +131,5 @@ Expiditionsteilnehmer zahlen pro Runde Gold.
 === Interaktionen === 
 - Abenteuerkarte: Kann entweder Rechts oder Über dem Expeditionstableau abgelegt werden. Rechts vom Expiditionstableau wertet es die Attribute der Expidition auf. Über dem Tableau abgelegt wird es zum Expiditionsteilnehmer.
 - Spezialfähigkeiten: Diverse Effekte
- 
-=== Sonstiges === 
 - Zug Beenden
+
