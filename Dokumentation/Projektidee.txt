@@ -130,14 +130,14 @@ Ablauf des Spiels (Algorithmus-Idee in Pseudo-Code):
  - Gleiches Prinzip für jeweils ein "Expeditionstableau"
 
 2. Ablauf eines Zuges:
- 2.2 Spieler platziert Karte über dem Tableau ("Computer"/Programm überprüft ob vorrausgesetzte Attribute erfüllt werden)
- 2.3 Spieler platziert Karte rechts neben dem Tableau (Entsprechende Attribute werden aufgebesert)
- 3.1 Zug Korrigieren (Sprung zu Punkt 2.2/2.3)
- 3.2 Prüfen ob Spezialfähigkeit des Tableaus genutzt wurde
- 3.3 Zug Beenden
-  3.2.1 Falls 2.3 dann zieht Spieler neue Abenteuerkarte
-  3.2.2 Falls 2.2 dann Spezialfähigkeit ausführen
- 4.2 "Gold" entsprechend aufaddieren
+ 1.1 Spieler platziert Karte über dem Tableau ("Computer"/Programm überprüft ob vorrausgesetzte Attribute erfüllt werden)
+ 1.2 Spieler platziert Karte rechts neben dem Tableau (Entsprechende Attribute werden aufgebesert)
+ 2.1 Zug Korrigieren (Sprung zu Punkt 2.2/2.3)
+ 2.2 Prüfen ob Spezialfähigkeit des Tableaus genutzt wurde
+ 2.3 Zug Beenden
+  2.2.1 Falls 2.3 dann zieht Spieler neue Abenteuerkarte
+  2.2.2 Falls 2.2 dann Spezialfähigkeit ausführen
+ 3.1 "Gold" entsprechend aufaddieren
  
 3. Ablauf einer Runde
  1.1 Schleife (i=0; i<Spieleranzahl;i++)
