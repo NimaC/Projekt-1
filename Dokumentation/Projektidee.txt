@@ -100,3 +100,77 @@ Wertung 2: Projektbeschreibung: gesamt: 4 / 10
 - Werbeslogans u.ä.: 0 
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
+
+=====================================
+=== Projektidee NimaC, 2016-06-13 ===
+=====================================
+
+Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler (Falls weniger vorhanden soll eine "AI" einen Spieler ersetzen)
+
+Ziel des Spiels: Nach 3 Runden am meisten Gold besitzen. Runde zu Ende wenn ein Spieler keine Karten mehr auf der Hand hat.
+
+Expeditionsteilnehmer zahlen pro Runde Gold.
+ 
+=== Benutzeroberfläche === 
+- Expeditionstableau : hat 3 Attribute z.B. "Technik", "Proviant" und "Kleidung" + Spezialfähigkeit
+- Abenteuerkarten : bessert Attribute auf + zeigt benötigte Attribute um als Expeditionsteilnehmer auszuspielen + Spezialfähigkeit (Als Expeditionsteilnehmer gibt er Gold pro Runde)
+- Übersichtskarte : Übersicht der Spezialfähigkeiten
+
+=== Interaktionen === 
+- Abenteuerkarte: Kann entweder Rechts oder Über dem Expeditionstableau abgelegt werden. Rechts vom Expiditionstableau wertet es die Attribute der Expidition auf. Über dem Tableau abgelegt wird es zum Expeditionsteilnehmer.
+- Spezialfähigkeiten: Diverse Effekte
+- Zug Beenden
+
+
+Ablauf des Spiels (Algorithmus-Idee in Pseudo-Code):
+
+1. Spielbeginn:
+ - Spieleranzahl wird ermittelt
+ - Jeder Spieler bekommt 5 zufällig generierte "Abenteuerkarten" aus der "Datenbank" der vorhandenen "Abenteuerkarten"
+ - Gleiches Prinzip für jeweils ein "Expeditionstableau"
+
+2. Ablauf eines Zuges:
+ 2.2 Spieler platziert Karte über dem Tableau ("Computer"/Programm überprüft ob vorrausgesetzte Attribute erfüllt werden)
+ 2.3 Spieler platziert Karte rechts neben dem Tableau (Entsprechende Attribute werden aufgebesert)
+ 3.1 Zug Korrigieren (Sprung zu Punkt 2.2/2.3)
+ 3.2 Prüfen ob Spezialfähigkeit des Tableaus genutzt wurde
+ 3.3 Zug Beenden
+  3.2.1 Falls 2.3 dann zieht Spieler neue Abenteuerkarte
+  3.2.2 Falls 2.2 dann Spezialfähigkeit ausführen
+ 4.2 "Gold" entsprechend aufaddieren
+ 
+3. Ablauf einer Runde
+ 1.1 Schleife (i=0; i<Spieleranzahl;i++)
+   Spieler(i) Zug() ausführen
+   Prüfen ob Spieler(i) keine Karten mehr auf der Hand hat (Falls Ja: Rundenende)
+   
+   
+Spezialfähigkeiten:
+ Abenteuerkarten:
+  1. Charmeur:
+  Spieler darf einen Expeditionsteilnehmer eines Mitspielers auf die Hand nehmen
+  
+  2. Feilscher:
+  Die Vorrausgesetzten Attribute der anderen Abenteuerkarten werden um 1 gesenkt
+  
+  3. Entrepreneur:
+  Die erhaltene Goldmenge pro Runde wird verdoppelt
+  
+  4. Sammler:
+  Spieler darf selber eine Karte ziehen oder einen Mitspieler aussuchen der eine Karte zieht
+  
+ Expeditionstableaus:
+  1. Wüste/Kamel
+   Startwert: 3/3/3
+  
+  2. Dschungel/Jeep
+   Startwert: 0/1/0
+   Spezial: Muss 2 Abenteuerkarten pro Zug spielen
+   
+  3. Meer/Schiff
+   Startwert: 2/2/2
+   Spezial: Muss pro Zug eine zusätzliche Aufrüstungsverbesserung spielen
+   
+  4. Land/Zug
+   Startwert: 2/3/1
+   Spezial: Kann pro Zug einen zusätzlichen Expeditionsteilnehmer spielen
