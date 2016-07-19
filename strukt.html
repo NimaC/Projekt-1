@@ -1,4 +1,4 @@
-<!-- 
+<!--
 1. Aufstellung der Strukturellen Elemente
 
 -01- Bild / Welcome Banner (Banner mit dem Namen des Spiels)
@@ -34,7 +34,7 @@ I. Expedition
 -10- Textfeld / Kleidung
 -11- Textfeld / Spezialfähigkeit ("Hover Over" Erklärung der Spezialfähigkeit)
 -22- Textfeld / Name der Expedition
-	
+
 II. Abenteuerkarte
 -13- Textfläche / Ansprüche, die der Teilnehmer stellt
 -14- Textfläche / Geld, das der Teilnehmer zahlt
@@ -53,16 +53,16 @@ III. Zug
 --------------------
 	-01- Bild / Welcome Banner (Banner mit dem Namen des Spiels)
 	-02- Schaltfläche / "Jetzt Spielen" Schaltfläche
-	
+
 --------------------------------------
 --- Game Preparation / Lobby Suche ---
 --------------------------------------
 	-04- Dialogfeld / Name des Spielers
 	-05- Schaltfläche / "Spiel Suchen" Schaltfläche
-	
------------------------
---- Adventure Tours ---
------------------------
+
+-----------------------------
+--- Adventure Tours / Game --
+-----------------------------
 
 - Anzahl der Schaltflächen werden durch Anzahl der Spieler bestimmt
 - Jeder Spieler sieht sein Expeditionstableau und seine 6 Abenteuerkarten
@@ -70,7 +70,7 @@ III. Zug
 - Ich beschreibe die strukturellen Elemente der Spielelemente jeweils nur einmal, auch wenn sie mehrmals vorkommen. (z.B. 6 Abenteuerkarten)
 Diese kann man dann hinterher so oft ausgeben lassen wie man möchte. (Durch PHP)
 
-x-mal:	
+x-mal:
 I. Expedition
 	-06- Bildfläche / Bild der Expedition
 	-07- Textfeld / Spezialfähigkeit
@@ -92,11 +92,11 @@ II. Abenteuerkarte
 III. Zug
 	-18- Schaltfläche / Zug Beenden
 	-19- Schaltfläche / Zug Korrigieren
-	
+
  -->
 
 
-<!-- 
+<!--
 ====================================
 === 1. Strukturierung (veraltet) ===
 ====================================
@@ -104,26 +104,26 @@ III. Zug
 	1. Seite Welcome Page:
 	- Welcome Banner (Banner mit dem Namen des Spiels)
 	- "Jetzt Spielen" Schaltfläche
-	
+
 	2. Seite Vorbereitung aufs Spiel
 	- Abfrage der Spielparameter
 	- Dialogfelder:
 		1. Anzahl der Spieler
 		2. Namen der einzelnen Spieler
-	
+
 	3. Seite Spiel
 	- Anzahl der Schaltflächen werden durch Anzahl der Spieler bestimmt
 	- Jeder Spieler sieht sein Expeditionstableau, eine Übersichtskarte und seine 6 Abenteuerkarten
 	- Jeder Spieler kann das Expeditionstableau und die ausgespielten Karten anderer Mitspieler sehen
-	
+
 	Ein Expeditionstableau besteht aus:
 	- 2 Bildflächen (Bild der Expedition und Spezialfähigkeit)
 	- 3 Textfelder (Attribute Nahrung, Trinken, Kleidung)
-	
+
 	Übersichtskarte:
 	- (Anzahl der Spezialfähigkeiten) Bildfläche
 	- (Anzahl der Spezialfähigkeiten) Textfelder
-	
+
 	Abenteuerkarte:
 	- Textfläche (Ansprüche, die der Teilnehmer stellt)
 	- Textfläche (Geld, das der Teilnehmer zahlt)
@@ -131,14 +131,14 @@ III. Zug
 	- Textfeld (Name des Teilnehmers)
 	- Bildfläche (Spezialfähigkeit)
 	- Textfläche (Wert, um den die Ausrüstung der Expedition aufgestockt wird)
-	
+
 	- Textfläche (Goldanzahl die der Spieler hat)
-	
+
 	- Schaltfläche (Zug Beenden)
 	- Schaltfläche / Zug Korrigieren
-	
+
 	3-6 Spieler, also 3 Layouts werden benötigt
-	
+
 ===================================
 === Feedback Alpers, 2016-04-27 ===
 ===================================
