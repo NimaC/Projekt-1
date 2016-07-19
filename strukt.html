@@ -1,49 +1,97 @@
 <!-- 
+1. Aufstellung der Strukturellen Elemente
+
+-01- Bild / Welcome Banner (Banner mit dem Namen des Spiels)
+-02- Schaltfläche / "Jetzt Spielen" Schaltfläche
+-04- Dialogfeld / Name des Spielers
+-05- Schaltfläche / "Spiel Suchen" Schaltfläche
+-06- Bildfläche / Bild der Expedition
+-07- Textfeld / Spezialfähigkeit
+-08- Textfeld / Nahrung
+-09- Textfeld / Trinken
+-10- Textfeld / Kleidung
+-11- Textfläche / Ansprüche, die der Teilnehmer stellt
+-12- Textfläche / Geld, das der Teilnehmer zahlt
+-13- Bildfläche / Bild des Teilnehmers
+-14- Textfeld / Name des Teilnehmers
+-15- Textfeld / Spezialfähigkeit
+-16- Textfläche / Wert, um den die Ausrüstung der Expedition aufgestockt wird
+-17- Textfläche / Goldanzahl die der Spieler hat
+-18- Schaltfläche / Zug Beenden
+-19- Schaltfläche / Zug Korrigieren
+-20- Textfeld / Name der Expedition
+-21- Interaktionsmöglichkeit / Abenteuerkarte über der Expedition platzieren
+-22- Interaktionsmöglichkeit / Abenteuerkarte Rechts neben der Expedition platzieren
+
+
+2. Gruppierungen
+
+I. Expedition
+-06- Bildfläche / Bild der Expedition
+-07- Textfeld / Spezialfähigkeit
+-08- Textfeld / Nahrung
+-09- Textfeld / Trinken
+-10- Textfeld / Kleidung
+-11- Textfeld / Spezialfähigkeit ("Hover Over" Erklärung der Spezialfähigkeit)
+-22- Textfeld / Name der Expedition
+	
+II. Abenteuerkarte
+-13- Textfläche / Ansprüche, die der Teilnehmer stellt
+-14- Textfläche / Geld, das der Teilnehmer zahlt
+-15- Bildfläche / Bild des Teilnehmers
+-16- Textfeld / Name des Teilnehmers
+-17- Textfeld / Spezialfähigkeit ("Hover Over" Erklärung der Spezialfähigkeit)
+-18- Textfläche / Wert, um den die Ausrüstung der Expedition aufgestockt wird
+
+III. Zug
+-18- Schaltfläche / Zug Beenden
+-19- Schaltfläche / Zug Korrigieren
+
+3. Ansichten / Views
 --------------------
 --- Welcome Page ---
 --------------------
 	-01- Bild / Welcome Banner (Banner mit dem Namen des Spiels)
 	-02- Schaltfläche / "Jetzt Spielen" Schaltfläche
 	
-------------------------
---- Game Preparation ---
-------------------------
-	-04- Dialogfeld / Anzahl der Spieler
-	-05- Dialogfeld mit (Anzahl der Spieler) Eingabefelder / Namen der einzelnen Spieler
+--------------------------------------
+--- Game Preparation / Lobby Suche ---
+--------------------------------------
+	-04- Dialogfeld / Name des Spielers
+	-05- Schaltfläche / "Spiel Suchen" Schaltfläche
 	
-------------
---- Game ---
-------------
+-----------------------
+--- Adventure Tours ---
+-----------------------
 
 - Anzahl der Schaltflächen werden durch Anzahl der Spieler bestimmt
-- Jeder Spieler sieht sein Expeditionstableau, eine Übersichtskarte und seine 6 Abenteuerkarten
+- Jeder Spieler sieht sein Expeditionstableau und seine 6 Abenteuerkarten
 - Jeder Spieler kann das Expeditionstableau und die ausgespielten Karten anderer Mitspieler sehen
 - Ich beschreibe die strukturellen Elemente der Spielelemente jeweils nur einmal, auch wenn sie mehrmals vorkommen. (z.B. 6 Abenteuerkarten)
 Diese kann man dann hinterher so oft ausgeben lassen wie man möchte. (Durch PHP)
-	
-I. Expeditionstableau:
+
+x-mal:	
+I. Expedition
 	-06- Bildfläche / Bild der Expedition
-	-07- Bildfläche / Spezialfähigkeit
+	-07- Textfeld / Spezialfähigkeit
 	-08- Textfeld / Nahrung
 	-09- Textfeld / Trinken
 	-10- Textfeld / Kleidung
-	
-II. Übersichtskarte:
--Anzahl dieser Beiden in Kombination wird durch die Anzahl der Spezialfähigkeiten bestimmt
-	-11- Bildfläche / Spezialfähigkeit
-	-12- Textfeld / Spezialfähigkeit
-	
-III. Abenteuerkarte:
+	-11- Textfeld / Spezialfähigkeit ("Hover Over" Erklärung der Spezialfähigkeit)
+	-22- Textfeld / Name der Expedition
+
+x-mal:
+II. Abenteuerkarte
 	-13- Textfläche / Ansprüche, die der Teilnehmer stellt
 	-14- Textfläche / Geld, das der Teilnehmer zahlt
 	-15- Bildfläche / Bild des Teilnehmers
-	-16  Textfeld / Name des Teilnehmers
-	-17- Bildfläche / Spezialfähigkeit
+	-16- Textfeld / Name des Teilnehmers
+	-17- Textfeld / Spezialfähigkeit ("Hover Over" Erklärung der Spezialfähigkeit)
 	-18- Textfläche / Wert, um den die Ausrüstung der Expedition aufgestockt wird
-	
-	-19- Textfläche / Goldanzahl die der Spieler hat
-	
-	-20- Schaltfläche / Zug Beenden
+
+III. Zug
+	-18- Schaltfläche / Zug Beenden
+	-19- Schaltfläche / Zug Korrigieren
 	
  -->
 
@@ -87,6 +135,7 @@ III. Abenteuerkarte:
 	- Textfläche (Goldanzahl die der Spieler hat)
 	
 	- Schaltfläche (Zug Beenden)
+	- Schaltfläche / Zug Korrigieren
 	
 	3-6 Spieler, also 3 Layouts werden benötigt
 	

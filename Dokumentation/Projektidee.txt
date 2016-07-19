@@ -1,8 +1,10 @@
 =====================================
-=== Projektidee NimaC, 2016-06-13 ===
+=== Projektidee NimaC, 2016-07-18 ===
 =====================================
 
-Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler (Falls weniger vorhanden soll eine "AI" einen Spieler ersetzen)
+Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler pro Lobby (Falls weniger vorhanden soll eine "AI" einen Spieler ersetzen)
+
+Lobbies stellen eine Partie des Spiels dar. Spieler sollen automatisch einer Partie/Lobby zugewiesen werden, bis diese befüllt ist. (bis 6 Spieler pro Lobby) Falls eine Lobby nach einer bestimmten Zeit unter 3 Spieler besitzt, werden Computergegner zugewiesen.
 
 Ziel des Spiels: Nach 3 Runden am meisten Gold besitzen. Runde zu Ende wenn ein Spieler keine Karten mehr auf der Hand hat.
 
@@ -28,7 +30,7 @@ Ablauf des Spiels (Algorithmus-Idee in Pseudo-Code):
 
 2. Ablauf eines Zuges:
  1.1 Spieler platziert Karte über dem Tableau ("Computer"/Programm überprüft ob vorrausgesetzte Attribute erfüllt werden)
- 1.2 Spieler platziert Karte rechts neben dem Tableau (Entsprechende Attribute werden aufgebesert)
+ 1.2 Spieler platziert Karte rechts neben dem Tableau (Entsprechende Attribute werden aufgebessert)
  2.1 Zug Korrigieren (Sprung zu Punkt 2.2/2.3)
  2.2 Prüfen ob Spezialfähigkeit des Tableaus genutzt wurde
  2.3 Zug Beenden
@@ -66,7 +68,7 @@ Spezialfähigkeiten:
    
   3. Meer/Schiff
    Startwert: 2/2/2
-   Spezial: Muss pro Zug eine zusätzliche Aufrüstungsverbesserung spielen
+   Spezial: Kann pro Zug eine zusätzliche Aufrüstungsverbesserung spielen
    
   4. Land/Zug
    Startwert: 2/3/1
