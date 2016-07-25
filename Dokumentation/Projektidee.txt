@@ -189,3 +189,55 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
 (Wie gewohnt gilt, dass diese Wertung ein aktueller Stand und keine abschließende Wertung ist.)
+
+===================================
+=== Feedback Alpers, 2016-07-25 ===
+===================================
+
+Zwar haben Sie an der Beschreibung gearbeitet, aber die beim letzten Mal genannten Punkte fehlen noch.
+
+Leider beschreiben Sie hier vorrangig den Spielablauf und die Struktur.
+
+-----
+
+(1) Struktur:
+
+=== Benutzeroberfläche === 
+- Expeditionstableau : hat 3 Attribute z.B. "Technik", "Proviant" und "Kleidung" + Spezialfähigkeit
+- Abenteuerkarten : bessert Attribute auf + zeigt benötigte Attribute um als Expeditionsteilnehmer auszuspielen + Spezialfähigkeit (Als Expeditionsteilnehmer gibt er Gold pro Runde)
+- Übersichtskarte : Übersicht der Spezialfähigkeiten
+
+=== Interaktionen === 
+- Abenteuerkarte: Kann entweder Rechts oder Über dem Expeditionstableau abgelegt werden. Rechts vom Expiditionstableau wertet es die Attribute der Expidition auf. Über dem Tableau abgelegt wird es zum Expeditionsteilnehmer.
+- Spezialfähigkeiten: Diverse Effekte
+- Zug Beenden
+
+Das sind alles Definitionen, die nahezu identisch mit der Struktur des Programms sind. Mit leichten Abwandlungen gehören diese Zeilen also in die strukt.html
+
+------
+
+(2) Ablauf des Spiels (Algorithmus-Idee in Pseudo-Code): ...
+
+In diesem Bereich sind Sie bereits bei einem Teil, der erst wesentlich später im Projekt bearbeitet werden soll. Hier sollen Sie beschreiben, worum es im Spiel geht. Und damit müssen Sie bei der Beschreibung nochmal deutlich nachlegen.
+
+-----
+
+Dummerweise zeigt sich bei genauem Hinsehen, das Sie immer noch versuchen, dass Brettspiel als Brettspiel zu beschreiben:
+
+1.1 Spieler platziert Karte über dem Tableau ("Computer"/Programm überprüft ob vorrausgesetzte Attribute erfüllt werden)
+
+Abgesehen von der Nähe zur Beschreibung eines Brettspiels ist hier auch unklar, was mit dem Begriff "Tableau" gemeint ist.
+
+Wenn ich Ihren Ansatz richtig verstehe, sollen Spieler hier aus einer Menge an Aktionen (die im Brettspiel auf Karten aufgedruckt sind) eine Aktion anwählen. Wenn das der Fall ist, dann beschreiben Sie es bitte auch so.
+
+-----
+
+Insgesamt ist diese Beschreibung zurzeit nur schlecht geeignet, um daraus die weitere Entwicklung des Projekts abzuleiten. Dementsprechend ist es aktuell auch schwer, den Zusammenhang zwischen den strukturellen Elementen und konkreten Teilen der Beschreibung zu finden. Und genau der muss erkennbar sein, sonst war das hier unnötige Arbeit.
+
+Wertung 2: Projektbeschreibung: gesamt: 2 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 2
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Wie gewohnt gilt, dass diese Wertung ein aktueller Stand und keine abschließende Wertung ist.)
