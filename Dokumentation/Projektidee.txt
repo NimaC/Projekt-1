@@ -2,7 +2,7 @@
 === Projektidee NimaC, 2016-07-26 ===
 =====================================
 
-Warum bekomme ich plötzlich weniger Punkte für die Beschreibung als bei dem vorigen Feedback? (Vorher 5, nun aber 2 Punkte)Ich würde es verstehen wenn ich die gleiche Punktanzahl bekomme obwohl ich weiter daran gearbeitet habe. Aber dann noch Punkte abziehen? Plötzlich kritisieren sie auch noch Punkte die auch beim vorigen Feedback vorhanden waren und dort unkritisiert blieben. Ich weiß nun auch nicht wirklich was Sie erwarten.
+Warum bekomme ich plötzlich weniger Punkte für die Beschreibung als bei dem vorigen Feedback? (Vorher 5, nun aber 2 Punkte) Ich würde es verstehen wenn ich die gleiche Punktanzahl bekomme obwohl ich weiter daran gearbeitet habe. Aber dann noch Punkte abziehen? Plötzlich kritisieren sie auch noch Punkte die auch beim vorigen Feedback vorhanden waren und dort unkritisiert blieben. Ich weiß nun auch nicht wirklich was Sie erwarten.
 Ich versuchs trotzdem mal:
 
 Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler pro Lobby (Falls weniger vorhanden soll eine "AI" einen Spieler ersetzen)
