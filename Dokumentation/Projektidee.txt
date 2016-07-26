@@ -1,4 +1,32 @@
 =====================================
+=== Projektidee NimaC, 2016-07-26 ===
+=====================================
+
+Warum bekomme ich plötzlich weniger Punkte für die Beschreibung als bei dem vorigen Feedback? (Vorher 5, nun aber 2 Punkte)Ich würde es verstehen wenn ich die gleiche Punktanzahl bekomme obwohl ich weiter daran gearbeitet habe. Aber dann noch Punkte abziehen? Plötzlich kritisieren sie auch noch Punkte die auch beim vorigen Feedback vorhanden waren und dort unkritisiert blieben. Ich weiß nun auch nicht wirklich was Sie erwarten.
+Ich versuchs trotzdem mal:
+
+Umsetzung des Brettspiels Adventure Tours als Webanwendung für 3-6 Mitspieler pro Lobby (Falls weniger vorhanden soll eine "AI" einen Spieler ersetzen)
+
+Lobbies stellen eine Partie des Spiels dar. Spieler sollen automatisch einer Partie/Lobby zugewiesen werden, bis diese befüllt ist. (bis 6 Spieler pro Lobby) Falls eine Lobby nach einer bestimmten Zeit unter 3 Spieler besitzt, werden Computergegner zugewiesen.
+
+Jeder Spieler erhält 7 Karten und ein Tableau. Die Karten und das Tableau besitzen 3 verschiedene Attribute. Die Karten können auf 2 Arten ausgespielt werden.
+
+Attribute: 1. Kleidung 2. Technik 3. Proviant
+
+1. Als Teilnehmer
+- Falls die Karte den gleichen (oder niedrigeren) Attributwert wie das Tableau besitzt kann diese als Teilnehmer    ausgespielt werden. 
+ (Bsp.: Karte benötigt 4 Kleidung um als Teilnehmer ausgespielt zu werden. Tableau hat 5 Kleidung. Karte kann also gespielt werden.)
+- Die Karte bringt dem Spieler pro Runde Gold.
+- Karten die auf dieser Form ausgespielt werden können besondere Spezialfähigkeiten ausführen.
+
+2. Als Aufrüstung
+- Die Karte bessert das Tableau auf um Karten als Teilnehmer ausspielen zu dürfen. 
+- Eine Karte muss im Anschluss gezogen werden.
+
+Ziel des Spiels: Nach 3 Runden am meisten Gold besitzen. Runde zu Ende wenn ein Spieler keine Karten mehr auf der Hand hat
+
+
+=====================================
 === Projektidee NimaC, 2016-07-18 ===
 =====================================
 
